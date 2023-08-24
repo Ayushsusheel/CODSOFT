@@ -104,50 +104,15 @@ public class FileUploadController
 	{
 		
 		System.out.println("hadlingFileUpload() method speaking..... going to fileUploadSuccess.jsp file now  !!!\n\n");
-		
-//		try 
-//		{
-//			System.out.println("getInputStream:-     "  +file.getInputStream() +"\n");
-//			//System.out.println("getContentType:-     "  +file.getContentType()+"\n");
-//			//System.out.println("getName:-     "         +file.getName()+"\n");
-//			System.out.println("getOriginalFilename:-     "  +file.getOriginalFilename()+"\n");
-//			//System.out.println("getSize():-     "  		+file.getSize()+"\n");
-//			//System.out.println("getStorageDescription:-     "  +file.getStorageDescription()+"\n");
-//			System.out.println("getBytes():-     "  +file.getBytes()+"\n");
-//			//System.out.println("getClass():-     "  +file.getClass()+"\n");
-//			System.out.println("getFileItem:-     "  +file.getFileItem()+"\n");
-//			System.out.println("toString:-       " + file.toString());
-	
-			
-//			byte a[] = file.getBytes();
-//			
-//			for(int i=0;i<a.length;i++)
-//			{
-//				System.out.print(i +  "  ");
-//					System.out.println();
-//			}
-//			
-//			System.out.println("-------------------------------------------------");
-//			
-//			InputStream input = file.getInputStream();
-//			
-//			System.out.println(input.read());
-//			System.out.println(input.read(a));
-//			System.out.println(input.toString());
-//			System.out.println(input.readAllBytes());
-//			System.out.println(input.readNBytes(0));
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-		
+
 		
 		//NOW WE WILL SAVE THE FILE AT SERVER SIDE (or) WHERE EVER I WANT TO STORE IT .....
 		
 		byte data[] = file.getBytes(); 
 		
-		/*String path = session.getServletContext().getRealPath("/")  //-----> C:\Users\Dell\ECLIPSE_2022\Spring_YT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\springmvc\ ;
+		/*String path = session.getServletContext().getRealPath("/")*/
 		
-		System.out.println(path);               iska mtlb h jab eclipse project build krta h toh ye location use hoti h server side se build krne ke liye , therefore yha pe hm apni file save krege then we will read that file in String....         */  
+		System.out.println(path);             
 		
 		
 		String path = session.getServletContext().getRealPath("/") + "WEB-INF" + File.separator + "resources" + File.separator + "images" + File.separator + file.getOriginalFilename()    ; //File.separator  ---> it means  ( slash )
@@ -182,7 +147,7 @@ public class FileUploadController
 		
 		try 
 		{
-			FileInputStream fileInputStream = new FileInputStream(filePath);         //("C:\\Users\\Dell\\ECLIPSE_2022\\Spring_YT\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0\\wtpwebapps\\springmvc\\WEB-INF\\resources\\images\\testing_in_eclipse.txt");
+			FileInputStream fileInputStream = new FileInputStream(filePath);        
 			
 			int value = fileInputStream.read();
 			
