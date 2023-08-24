@@ -162,7 +162,7 @@ public class StudentRegister__Controller
 	//DELETE A RECORD
 	
 	@RequestMapping("/deleteStudent/{studentID}")
-	public ModelAndView deleteStudent(@PathVariable("studentID") int studentID, Model model) //@ModelAttribute Student student ,Model model, inko likhne ka no use because hmlog value thodi dere h sari details of student via form jo ye ModelAttribute Map krega !!! therefore, No Use....
+	public ModelAndView deleteStudent(@PathVariable("studentID") int studentID, Model model) 
 	{
 		
 		
@@ -187,7 +187,7 @@ public class StudentRegister__Controller
 	
 	
 	@RequestMapping("/updateStudent/{studentID}")
-	public ModelAndView updateStudent(@PathVariable("studentID") int studentID,Model model) //@ModelAttribute Student student ,Model model, inko likhne ka no use because hmlog value thodi dere h sari details of student via form jo ye ModelAttribute Map krega !!! therefore, No Use....
+	public ModelAndView updateStudent(@PathVariable("studentID") int studentID,Model model) 
 	{
 		
 		model.addAttribute("title", "Update :-)");
