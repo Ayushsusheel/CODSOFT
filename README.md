@@ -2,59 +2,62 @@
 
 
 
-Hi Everyone, 
+__Hi Everyone,__ 
 
-* This repository consists of the projects that were assigned to me during my "Internship" at CODSOFT.
+* This repository consists of the projects that were assigned to me during my "__Internship__" at __CODSOFT.__
 
 
-=====================================================================================================================================================
+=============================================================================================
 
  (___Task-1 "DEVELOP A NUMBER GUESSING GAME___)
 
 
-  In my task 1 I used Math.random() function which basically generates any random number.
-  Then calling a method playGame() inside which all the logic have been written like how to take user name as an input, prompt the user to select the level as EASY/MEDIUM/HARD.
-  In the easy level the user can play/guess the number till 10 times means he/she has total 10 chances.
-  In Medium level he has 5 chances
-  In Hrad level he has only 2 chances.
-  And based on the number of chances used a total score is calculated and displayed to user :-)
-  Also the user gets an option that he/she wants to play the game again or not!
-  If yes then simply press 9 else 0 for exit.  
+ * In my task 1 I used Math.random() function which basically generates any random number.
+ * Then calling a method playGame() inside which all the logic have been written like how to take user name as an input, prompt the user to select the level as EASY/MEDIUM/HARD.
+ * In the easy level the user can play/guess the number till 10 times means he/she has total 10 chances.
+ * In Medium level he has 5 chances
+ * In Hrad level he has only 2 chances.
+ * And based on the number of chances used a total score is calculated and displayed to user :-)
+ * Also the user gets an option that he/she wants to play the game again or not!
+ * If yes then simply press 9 else 0 for exit.  
   
-   _Working explained_ :- [https://youtu.be/BhT1sd5XC94]   ---> task 1 working 
+ * _Working explained_ :- [https://youtu.be/BhT1sd5XC94]   ---> task 1 working 
   
-=====================================================================================================================================================
+=============================================================================================
 
 
 
 
 
-=====================================================================================================================================================
+=============================================================================================
 
 (___Task-2 "DEVELOP A WORD COUNTER APP___)
 
  
-Prompt the user to enter a text or provide a file to count the words.
-2. Read the input text or file and store it in a string.
-3. Split the string into an array of words using space or punctuation as delimiters.
-4. Initialize a counter variable to keep track of the number of words.
-5. Iterate through the array of words and increment the counter for each word encountered.
-6. Display the total count of words to the user.
-7. So, I have done this using the Spring MVC framework and Spring ORM (HIBERNATE) , for the frontend I used JSP,CSS and for the Database part I used MySQL Workbench...
-8. So 1st of all the user will get 2 options either count the number of words in a text file or count the number of words on the website itself.
-9. If the user selects/press on the button [VIA-TEXT] so the user is redirected to a page where he will simply write the text/any amount of data he/she can write then after clicking on the 
+* Prompt the user to enter a text or provide a file to count the words.
+* Read the input text or file and store it in a string.
+* Split the string into an array of words using space or punctuation as delimiters.
+* Initialize a counter variable to keep track of the number of words.
+* Iterate through the array of words and increment the counter for each word encountered.
+* Display the total count of words to the user.
+* So, I have done this using the Spring MVC framework and Spring ORM (HIBERNATE) , for the frontend I used JSP,CSS and for the Database part I used MySQL Workbench...
+* So 1st of all the user will get 2 options either count the number of words in a text file or count the number of words on the website itself.
+* If the user selects/press on the button [VIA-TEXT] so the user is redirected to a page where he will simply write the text/any amount of data he/she can write then after clicking on the 
    submit button a success page is displayed with the total number of words count :-)
-10. Similarly the [VIA-FILE] works where he is given an option to choose a file and simply hit the button "UPLOAD". The user after clicking on the 
+* Similarly the [VIA-FILE] works where he is given an option to choose a file and simply hit the button "UPLOAD". The user after clicking on the 
     submit button a success page is displayed with the total number of words count :-) 
+
     
-_Working explained_ :- [https://youtu.be/7v_zyO3CKa4]   ---> task 2 working
-
-=====================================================================================================================================================
+* _Working explained_ :- [https://youtu.be/7v_zyO3CKa4]   ---> task 2 working
 
 
 
+=============================================================================================
 
-=====================================================================================================================================================
+
+
+
+=============================================================================================
 
 
 (___Task-3 DEVELOP A STUDENT MANAGEMENT SYSTEM___)
@@ -76,13 +79,13 @@ _Working explained_ :- [https://youtu.be/7v_zyO3CKa4]   ---> task 2 working
 * Simply click on the [send-email] button then a email is sent to that partiular user which comprises of all the details of the students that have been added so far  : - ) 
 
 
-_Working explained_ :- []   ---> task 3 working
+* _Working explained_ :- [https://youtu.be/OQ1Ej-LE6HA]   ---> task 3 working
 
-=====================================================================================================================================================
+=============================================================================================
 
 
-ThankYou,
-Ayush S.
+___ThankYou,___
+___Ayush S.___
 
 
 
