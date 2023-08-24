@@ -7,11 +7,10 @@ Hi Everyone,
 * This repository consists of the projects that were assigned to me during my "Internship" at CODSOFT.
 
 
-=================================================================================================================================================================================================
+=====================================================================================================================================================
 
-============================================
-||* Task-1 "DEVELOP A NUMBER GUESSING GAME ||
-============================================
+ (___Task-1 "DEVELOP A NUMBER GUESSING GAME___)
+
 
   In my task 1 I used Math.random() function which basically generates any random number.
   Then calling a method playGame() inside which all the logic have been written like how to take user name as an input, prompt the user to select the level as EASY/MEDIUM/HARD.
@@ -22,19 +21,18 @@ Hi Everyone,
   Also the user gets an option that he/she wants to play the game again or not!
   If yes then simply press 9 else 0 for exit.  
   
-  # Working explained :- [https://youtu.be/BhT1sd5XC94]   ---> task 1 working
+   _Working explained_ :- [https://youtu.be/BhT1sd5XC94]   ---> task 1 working 
   
-=================================================================================================================================================================================================
+=====================================================================================================================================================
 
 
 
 
 
-=================================================================================================================================================================================================
+=====================================================================================================================================================
 
-============================================
-||* Task-2 "DEVELOP A WORD COUNTER APP"   ||
-============================================
+(___Task-2 "DEVELOP A WORD COUNTER APP___)
+
  
 Prompt the user to enter a text or provide a file to count the words.
 2. Read the input text or file and store it in a string.
@@ -49,18 +47,17 @@ Prompt the user to enter a text or provide a file to count the words.
 10. Similarly the [VIA-FILE] works where he is given an option to choose a file and simply hit the button "UPLOAD". The user after clicking on the 
     submit button a success page is displayed with the total number of words count :-) 
     
-# Working explained :- [https://youtu.be/7v_zyO3CKa4]   ---> task 2 working
+_Working explained_ :- [https://youtu.be/7v_zyO3CKa4]   ---> task 2 working
 
-=================================================================================================================================================================================================
-
-
+=====================================================================================================================================================
 
 
-=================================================================================================================================================================================================
 
-=====================================================
-||* Task-3 "DEVELOP A STUDENT MANAGEMENT SYSTEM"   ||
-=====================================================
+
+=====================================================================================================================================================
+
+
+(___Task-3 DEVELOP A STUDENT MANAGEMENT SYSTEM___)
 
  
 * Create a Student class to represent individual students. Include attributes such as name, roll number, grade, and any other relevant details.
@@ -79,10 +76,9 @@ Prompt the user to enter a text or provide a file to count the words.
 * Simply click on the [send-email] button then a email is sent to that partiular user which comprises of all the details of the students that have been added so far  : - ) 
 
 
-# Working explained :- []   ---> task 3 working
+_Working explained_ :- []   ---> task 3 working
 
-=================================================================================================================================================================================================
-
+=====================================================================================================================================================
 
 
 ThankYou,
