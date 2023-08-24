@@ -1,0 +1,5 @@
+Here in this project I have merged the 2 projects in one for the file upload part you can check out the code under the file src/main/java/springmvc/controller/FileUpload
+
+and for the views you can see the respectives views in the FileUpload.java file as it is.
+
+It will redirect to you an option page where you are given the choice to either upload the file via text or simply count the number of words on webiste itself !! :-)  
