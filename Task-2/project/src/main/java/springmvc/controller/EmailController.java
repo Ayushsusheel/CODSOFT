@@ -130,7 +130,7 @@ public class EmailController
 		Session session=Session.getInstance(properties, new Authenticator() {
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {				
-				return new PasswordAuthentication("admin@gmail.com", "password");
+				return new PasswordAuthentication("admin@gmail.com", "password"); //go to google accounts > data privacy > 2step verifications > app passpwords > generate a password for gmail application. 
 			}
 			
 			
